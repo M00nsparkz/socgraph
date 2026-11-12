@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f1115;
+  --text: #e7e9ee;
+  --muted: #8b93a7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+#graph {
+  position: fixed;
+  inset: 0;
+}
+
+.status {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  margin: 0;
+  padding: 10px 14px;
+  background: #2a1518;
+  border: 1px solid #4a2226;
+  border-radius: 10px;
+  color: #f87171;
+  font-size: 13px;
+}
